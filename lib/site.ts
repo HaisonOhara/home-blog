@@ -1,0 +1,78 @@
+export const site = {
+  name: 'MyBrain.log',
+  tagline: 'Alguns logs da minha mente',
+  description:
+    'Um blog em pixel art sobre tecnologia, programação, games e o que mais eu sentir vontade — escrito por um dev nerdola.',
+  author: 'Dev Clark',
+  realName: 'Haison Ohara',
+  mascot: 'Clarkinho',
+  role: 'Engenheiro de Software Sênior',
+  level: 28,
+  location: 'Algum lugar com café e Wi-Fi em Mogi das Cruzes SP',
+  bio: [
+    'Sou desenvolvedor há mais de 8 anos, construindo produtos dos mais variados tipos desdes sistemas web a aplicativos movéis para carros. Apaixonado por tecnologia alinhada a produto e por compartilhar conhecimento com a galera.',
+    'Fora do teclado, sou um cara tranquilão, Cristão, amante dos games, e de momentos tranquilos com minha família e amigos. A idéia do meu dump cerebral é ser um cantinho para compartilhar o que aprendo pelos caminhos dessa vida.',
+  ],
+  stats: [
+    { label: 'Frontend', value: 80, color: 'var(--primary)' },
+    { label: 'Backend', value: 100, color: 'var(--accent)' },
+    { label: 'UX & Design', value: 74, color: 'var(--sky)' },
+    { label: 'Café', value: 100, color: 'var(--wood-light)' },
+    { label: 'Games', value: 100, color: 'var(--berry)' },
+  ],
+  inventory: [
+    { short: 'TS', name: 'TypeScript' },
+    { short: 'RE', name: 'React' },
+    { short: 'ND', name: 'Node.js' },
+    { short: 'PG', name: 'PostgreSQL' },
+    { short: 'JA', name: 'Java' },
+    { short: 'NE', name: 'NestJs' },
+    { short: 'GIT', name: 'Git' },
+    { short: 'DK', name: 'Docker' },
+    { short: 'IA', name: 'Inteligência Artificial' },
+    { short: '???', name: 'O que mais for necessário (eu aprendo rápido kk)' },
+  ],
+  quests: [
+    {
+      period: 'Nov 2023 — hoje',
+      title: 'Engenheiro de Software Sênior',
+      place: 'Grupo Boticário',
+      text: 'Dev Senior no time de serviços em loja, Se vc ja agendou uma serviço numa loja boticário certamente passou por um dos nossos códigos',
+    },
+    {
+      period: 'Nov 2022 — Aug 2023',
+      title: 'Engenheiro de Software',
+      place: 'Livup',
+      text: 'Trabalhei em praticamente todos os sistemas relacionados aos processos de estoque das marmitas congeladas da LivUp.',
+    },
+    {
+      period: 'May 2020 — Oct 2020',
+      title: 'Dev Júnior',
+      place: 'IBM',
+      text: 'Atuei no time de consultoria passando por projetos em instituições financeiras e até mesmo apps nativos para rádios de carros',
+    },
+    {
+      period: 'Jul 2019- Jan 2020',
+      title: 'Api Integration Intern',
+      place: 'LinkAPI',
+      text: 'Atuei no time responsável por integraçoes de apis na plataforma, atendendo muitos clientes do varejo e grandes ERPs',
+    },
+    {
+      period: 'Jan 2019- Jul 2020',
+      title: 'Software Development Intern',
+      place: 'Thales',
+      text: 'Atuei no time de pesquisa e desenvolvimento de software, participando de projetos internacionais com times da França',
+    },
+     {
+      period: 'Jan 2018- Jan 2019',
+      title: 'Forensics Intern',
+      place: 'EY',
+      text: 'Atuei no time de investigação de fraudes financeiras atuando com Data Analytics e Computação Forense',
+    },
+  ],
+  contacts: [
+    { label: 'E-mail', href: 'haison.ohara@outlook.com' },
+    { label: 'GitHub', href: 'https://github.com' },
+    { label: 'LinkedIn', href: 'https://linkedin.com' },
+  ],
+} as const
